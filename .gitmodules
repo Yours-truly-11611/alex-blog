@@ -1,0 +1,3 @@
+[submodule "themes/minilog-hugo"]
+	path = themes/minilog-hugo
+	url = https://github.com/statichunt/minilog-hugo.git

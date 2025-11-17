@@ -1,0 +1,59 @@
+/* --- Archie Theme Style Overrides --- */
+
+/* 1. Global Body Styling: Off-White Background and Font */
+body {
+    /* Off-white background color */
+    background-color: #fcfcfc; 
+    
+    /* Mono-spaced font for the Archie feel */
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 16px; 
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-weight: 700;
+}
+
+
+/* 2. Red Accent Color Variables */
+:root {
+    /* Define the bright red accent color */
+    --archie-accent-color: #e74c3c; 
+}
+
+/* Apply the accent color to all links */
+a {
+    color: var(--archie-accent-color);
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #c0392b; /* Darker red on hover */
+    text-decoration: underline;
+}
+
+/* Highlight tags/buttons */
+.tag-list a {
+    border: 1px solid var(--archie-accent-color);
+    color: var(--archie-accent-color) !important;
+}
+
+
+/* 3. Dashed Separators (Minilog Specific Selectors) */
+
+/* Targets each post summary on list pages (Homepage, Archive) */
+.post-item {
+    border-bottom: 2px dashed var(--archie-accent-color); 
+    padding-bottom: 2.5rem; 
+    margin-bottom: 2.5rem;   
+}
+
+/* Targets the main content area of a single blog post */
+.post-content {
+    border-bottom: 2px dashed var(--archie-accent-color); 
+    padding-bottom: 1.5rem; 
+    margin-bottom: 2.5rem;   
+}

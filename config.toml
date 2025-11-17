@@ -3,14 +3,14 @@
 # The presence of this file is for compatibility with Blogdown and Forestry.
 #
 # The actual configuration files are stored in the `config/_default/` folder.
-
+theme = "minilog-hugo"
 
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-color_primary = "#1C1C1C"
-body_color = "#fff"
-text_color = "#494949"
+color_primary = "#e74c3c"
+body_color = "#fcfcfc"
+text_color = "#1C1C1C"
 text_dark = "#1C1C1C"
 text_light = "#DEDEDE"
 border_color = "#DEDEDE"
